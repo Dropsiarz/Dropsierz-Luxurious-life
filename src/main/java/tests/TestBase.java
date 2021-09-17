@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 public class TestBase {
     public static WebDriver driver;
 
-
+//test comit
     public void setup(){
         WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
         driver = new ChromeDriver();
